@@ -1,40 +1,4 @@
-@charset "UTF-8"; 
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
-}
 
-h1{
-    padding-top: 100x;
-}
-html {
-    height: 100vh;
-}
-body {
-    background: url(../imagens/fundovertical.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    overflow: hidden;
-}
-.div{
-    background-color: rgba(255, 228, 196, 0.5);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width:400px ;
-    height:500px ;
-
-    
-    
-}
-.login{
-    
-    position: relative;
-    height: 100vh;
-}
 
 
 
