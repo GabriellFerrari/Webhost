@@ -26,8 +26,8 @@
     .campo{
         background-color: rgb(255, 255, 255);
         border-radius: 25px;
-        width: 400px;
-        height: 600px;
+        width: 300px;
+        height: 350px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -44,7 +44,7 @@
         margin-bottom: 30px;
     }
 
-    main > section > h1{
+    main > div > h1{
     position: absolute;
         top: 70px; /* ou ajuste como preferir */
         left: 50%;
@@ -142,6 +142,10 @@
         color: #000066;
         font-weight: bolder;
     }
+    .imgcarrosel{
+         display: none;
+       }
+       
 
 
 
