@@ -1,2 +1,33 @@
+ @charset "UTF-8";
+ /*
+- Pequenas telas: até 576px — smartphones compactos ou modelos antigos.
+- Celular: de 577px até 768px — smartphones modernos com tela média ou grande.
+- Tablet: de 769px até 1024px — tablets grandes ou notebooks menores.
+- Desktop: de 1025px até 1440px — notebooks padrão e monitores comuns de PC.
+- Grandes telas: acima de 1440px — monitores ultrawide, telas 4K e TVs.
+*/
+
+   @media screen and (min-width:769px) and (max-width:1024px){
+    
+    body{
+        background-image: url(../imagens/fundohorizontal.png);
+        font-size: 1.2em;
+        }
+
+       .campo{
+        width: 500px;
+       }
+       input{
+        width: 450px;
+       }
+
+       button{
+        width: 450px;
+       }
+    
+    
+    }
+
+
 
 

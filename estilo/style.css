@@ -32,6 +32,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.61);
+        transition: all 0.1s ;
     }
 
     .campo > h2 {
@@ -127,6 +129,18 @@
     button > a {
         color: white;
         text-decoration: none;
+    }
+    .signup{
+        margin-top: 45px;
+       text-align: center;
+       font-size: 1.2em;
+       
+    }
+    .signup > a {
+        padding-left: 10px;
+        text-decoration: none;
+        color: #000066;
+        font-weight: bolder;
     }
 
 
