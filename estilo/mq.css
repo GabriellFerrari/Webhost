@@ -33,42 +33,31 @@
     }
 
     @media screen and (min-width:1025px) {
-  main {
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    gap: 50px;
-    padding: 20px;
-  }
+      main {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         gap: 50px; /* Espaçamento entre a imagem e o formulário */
+         width: 100%;
+      }
 
-  .imgcarrosel {
-    display: block;
-    
-    width: 500px;
-    height: 400px;
-    background-color: white;
-    background-image: url(../imagens/img1.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+      .imgcarrosel {
+         display: block;
+         width: 500px;
+         height: 400px;
+         background-color: white;
+         background-image: url(../imagens/img1.svg);
+         background-size: contain;
+         background-repeat: no-repeat;
+         background-position: center;
+      }
 
-  .campo {
-    width: 550px;
-    height: 400px;
-  }
-
-  input {
-    width: 350px;
-  }
-
-  button {
-    width: 350px;
-  }
-}
-    
+      .campo {
+         width: 550px;
+         height: 400px;
+      }
+         
 
 
 
